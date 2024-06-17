@@ -15,7 +15,10 @@ Then, navigate to the cloned repository:
 ```sh
 cd assignment-petition-platform
 ```
-### ⚠️ Warning: use `cd backend` to navigate to the backend directory before running the following commands.
+Then, navigate to `backend` folder to run the below steps
+```sh
+cd backend
+```
 
 ### 2. Set Up Virtual Environment (Optional but recommended)
 Create a virtual environment to manage your project dependencies:
