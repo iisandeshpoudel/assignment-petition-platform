@@ -15,6 +15,7 @@ Then, navigate to the cloned repository:
 ```sh
 cd assignment-petition-platform
 ```
+### ⚠️ Warning: use `cd backend` to navigate to the backend directory before running the following commands.
 
 ### 2. Set Up Virtual Environment (Optional but recommended)
 Create a virtual environment to manage your project dependencies:
@@ -42,13 +43,12 @@ Create a `.env` file in the root directory and add the following:
 SECRET_KEY=your_secret_key
 ```
 ### 5. Apply Migrations
-⚠️ Warning: use `cd backend` to navigate to the backend directory before running the following commands.
+
 Apply database migrations to set up your database schema:
 ```sh
 python manage.py migrate
 ```
 ### 6. Run the Development Server
-⚠️ Warning: use `cd backend` to navigate to the backend directory before running the following commands.
 Start the development server:
 ```sh
 python manage.py runserver
