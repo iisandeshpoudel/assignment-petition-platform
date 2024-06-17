@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 import mimetypes
 from pathlib import Path
+import logging
 
 mimetypes.add_type("text/css", ".css", True)
 load_dotenv()
@@ -35,7 +36,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     "api",
-    "rest_framework",
     "corsheaders",
 ]
 
