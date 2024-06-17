@@ -1,7 +1,6 @@
+
 # Overview of the project with my thought process during the development phase
-As I got interviewed as a Python Developer. I decided to do this assignment in a Pythonic way.
-Hence, I used [venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments) package to manage the virtual environment and Django as the backend framework.
-And HTML, CSS and JS for the front end.
+As I was interviewed for a Python Developer role, I decided to approach this assignment in a Pythonic manner. Consequently, I utilized the `venv` package to manage the virtual environment, and Django as the backend framework. For the front-end, I employed HTML, CSS, and JavaScript.
 
 ### Features with their details
 Since this is a demo project, I decide to keep Sign up only with username and password intentionally for the sake of simplicity
@@ -20,10 +19,19 @@ Since this is a demo project, I decide to keep Sign up only with username and pa
 ## Snippets
 ![homepage](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/homepage.png)
 ![petition](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/petitionlist.png)
-![signup]([https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/signup.png))
+![signup]((https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/signup.png))
 ![sigin](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/sign%20in.png)
 ![myprofile](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/my%20profile.png)
 ![create](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png)
+# Deployment Overview
+[Click here to visit the demo site](http://52.140.0.202:8000/)
+
+For the deployment of this project, a Virtual Machine (VM) running Ubuntu was provisioned. The following steps were taken to ensure the successful deployment and accessibility of the application:
+
+1.  **Inbound Port Configuration**: The inbound port on the VM was configured to allow external access to the application. While this exposes the application to the internet, it serves the purpose of showcasing the demo project.
+2.  **Server Configuration**: The application server is running on port `0.0.0.0:5000`, which enables it to be accessible via the public IP address of the VM.
+3.  **External Access**: To access the demo site, users can visit the following URL: [http://52.140.0.202:8000/](http://52.140.0.202:8000/)
+Please note that while this deployment configuration allows for external access, it may introduce potential security risks. In an actual production environment, I will  implement additional security measures, such as firewalls, SSL/TLS encryption, and access control mechanisms, to ensure the protection of the application and its data.
 
 # Code Structure
 ```
@@ -136,6 +144,8 @@ Since this is a demo project, I decide to keep Sign up only with username and pa
 3.  **Bootstrap for Frontend**:
 
     -   Bootstrap was used to create a responsive and modern user interface quickly. It offers pre-designed components and is highly customizable.
+
+
 
 # Additional Steps or Configurations
 
