@@ -1,3 +1,4 @@
+# Overview of the project with my thought process during the development phase
 As I got interviewed as a Python Developer. I decided to do this assignment in a Pythonic way.
 Hence, I used [venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments) package to manage the virtual environment and Django as the backend framework.
 And HTML, CSS and JS for the front end.
