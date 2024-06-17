@@ -1,4 +1,5 @@
-### This section provides a comprehensive guide on how to run the web application locally on Windows, Linux, and macOS.
+# How to run locally
+ This section provides a comprehensive guide on how to run the web application locally on Windows, Linux, and macOS.
 ### Prerequisites
  - Python 3.12
  - Git
