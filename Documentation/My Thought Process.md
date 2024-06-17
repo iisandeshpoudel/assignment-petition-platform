@@ -117,9 +117,9 @@ And HTML, CSS and JS for the front end.
 
 3.  **Bootstrap for Frontend**:
 
--   Bootstrap was used to create a responsive and modern user interface quickly. It offers pre-designed components and is highly customizable.
+    -   Bootstrap was used to create a responsive and modern user interface quickly. It offers pre-designed components and is highly customizable.
 
-## Additional Steps or Configurations
+# Additional Steps or Configurations
 
 ### Creating a Superuser
 
