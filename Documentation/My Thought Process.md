@@ -17,7 +17,13 @@ Since this is a demo project, I decide to keep Sign up only with username and pa
 | My Profile| User can view thier profile where they can update and delete thier petition, search their petition. And also change their password
 
 ## Snippets
-https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png
+![petition](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/petitionlist.png)
+![signup]([https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/signup.png))
+![sigin](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/sign%20in.png)
+![myprofile](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/my%20profile.png)
+![create](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png)
+![homepage](https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/homepage.png)
+!
 
 # Code Structure
 ```
