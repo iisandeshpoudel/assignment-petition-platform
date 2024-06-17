@@ -16,8 +16,8 @@ Since this is a demo project, I decide to keep Sign up only with username and pa
 | Voting (Sign and Unsign)| User can vote/sign petition, and can undo their action
 | My Profile| User can view thier profile where they can update and delete thier petition, search their petition. And also change their password
 
-### Snippets
-
+## Snippets
+https://github.com/iisandeshpoudel/assignment-petition-platform/blob/main/Documentation/Snippets/create.png
 
 # Code Structure
 ```
