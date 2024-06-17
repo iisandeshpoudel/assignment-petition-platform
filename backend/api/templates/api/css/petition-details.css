@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+:root {
+  --primary-color: dimgrey;
+  --bg-col1: cornsilk;
+  --bg-col2: snow;
+  --secondary-color: Darkmagenta;
+  --accent-primary: darkorange;
+  --accent-secondary: darkviolet;
+  --accent-light-primary: khaki;
+  --accent-light-secondary: slateblue;
+  --h1: clamp(30px, 3.618vw, 68px);
+  --h2: clamp(26px, 2.618vw, 42px);
+  --h3: clamp(16px, 1.618vw, 26px);
+  --p1: clamp(14px, 1.3vw, 18px);
+  --p2: clamp(10px, 1vw, 14px);
+}
+
+h1 {
+  font-family: "Playfair Display";
+  font-weight: normal;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  border: 1px dimgrey solid;
+  border-radius: 10px;
+  width: 50vw;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.post a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* justify-content: center; */
+  padding: 20px;
+  /* Optional: Adds padding inside each post */
+}
+
+.uniqueid {
+  margin: 0;
+  padding: 0;
+  font-size: var(--p2);
+}
+
+
+.poster {
+  font-size: var(--p2);
+  color: var(--primary-color);
+  margin: 20px 10px 10px 0px;
+  padding: 10px 10px 10px 0px;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  font-size: var(--p2);
+}
+
+h3 {
+  font-size: var(--h3);
+  color: rgba(1, 1, 1, 0.8);
+  margin: 0;
+  padding: 10px 10px 10px 0px;
+}
+
+.description {
+  font-size: var(--p1);
+  color: rgba(1, 1, 1, 0.8);
+  margin: 0;
+  padding: 10px 10px 10px 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.head-left,
+.head-right {
+  display: flex;
+  align-items: center;
+}
+
+.dateC {
+  white-space: nowrap;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.left,
+.right-sign {
+  display: flex;
+  align-items: center;
+}
+
+.poster,
+.signs {
+  margin: 0;
+}
+
+.fa-users {
+  margin-right: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  margin: 10px 0px 10px 0px;
+  padding: 10px 40px;
+  font-size: var(--p2);
+  outline: 0;
+  color: snow;
+  font-weight: bold;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  border-radius: 10px;
+  border: 1px transparent solid;
+  background-color: var(--accent-light-secondary);
+  cursor: pointer;
+}

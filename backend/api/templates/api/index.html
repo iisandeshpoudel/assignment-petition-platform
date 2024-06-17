@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Petition.org</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'index.css' %}" type="text/css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="top">
+      <p>Petition.org</p>
+      <div class="right-menu">
+        <form class="search-box" action="search.html" method="get">
+          <!-- <input type="text" name="query" placeholder="Search..."> -->
+        </form>
+        <!-- <a href="">Blog</a>
+        <a href="">About</a> -->
+        <button class="btnCampaign" onclick="window.location.href='{% url 'create-petition' %}';">Start a
+          Campaign</button>
+
+        <button class="btnSignUp" onclick="window.location.href='{% url 'register' %}';">Sign up</button>
+        <button class="btnSignIn" onclick="window.location.href='{% url 'login' %}';">Sign in</button>
+      </div>
+    </div>
+    <div class="sectionA">
+      <div class="center">
+        <h1>World's Petition Platform</h1>
+        <p>
+          We started in 2016 with the radical idea that anyone, anywhere, should be able to easily and securely to start
+          their own petition. Today, we offer a trusted and easy-to-use platform for social movement accross the world.
+        </p>
+        <img src="images/signature2.png" alt="">
+      </div>
+    </div>
+    <div class="sectionB">
+      <div class="left-half">
+        <p>Who uses the Platform?</p>
+        <p>We believe that when everyone speaks out about societal problems and acts together, the world will be a
+          better place.</p>
+      </div>
+      <div class="right-half">
+        <div class="container">
+          <div class="card">
+            <img src="https://www.shutterstock.com/image-vector/fist-power-concept-protest-rebel-600nw-1859751988.jpg"
+              alt="">
+            <p class="peeps">Activists</p>
+            <p>Social activists can start a social movement and connect supporters in their communities.</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/022/067/833/non_2x/judge-icon-black-image-free-vector.jpg"
+              alt="">
+            <p class="peeps">Legislators</p>
+            <p>Decision makers at the highest levels of government are engaging with their constituents.</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://media.istockphoto.com/id/1420572037/vector/organization-chart-icon-flowchart-symbol-sign-teamwork-vector.jpg?s=612x612&w=0&k=20&c=SLKloViAdPIjAaOc3f11d8eh1pPY9SUDixON-6RtPzo="
+              alt="">
+            <p class="peeps">Organizations</p>
+            <p>Leading organizations are advancing their causes and mobilizing new supporters.</p>
+          </div>
+          <div class="card">
+            <img
+              src="https://static.vecteezy.com/system/resources/previews/034/778/918/non_2x/journalist-icon-on-white-background-simple-illustration-free-vector.jpg"
+              alt="">
+            <p class="peeps">Reporters</p>
+            <p>Journalists are sourcing powerful stories and covering campaigns hundreds of times a day.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sectionC">
+      <div class="slogan">
+        <p>We believe in your voice</p>
+      </div>
+      <div class="slogan-para">
+        <div class="left-text">
+          We're in here with a simple and clear mission is building a powerful platform for the change, helping people
+          around the world to raise their voices, collecting signatures and contribute to the world.
+        </div>
+        <div class="right-text">
+          At Petition.org, We believe that the power to change the world is in all human beings, we also believe that
+          when everyone speaks out the problem of society and action together, the world will become a better place.
+        </div>
+      </div>
+      <div class="image-container">
+        <img src="https://assets.apnews.com/2b/7d/9e3971908269e6c46a020c4a8ab6/7dfb83fcd7774b9d8ec4964b8dbaaff9" alt="">
+      </div>
+    </div>
+    <div class="sectionD">
+      <div class="value-title">
+        <h1>Our Values</h1>
+      </div>
+      <div class="values">
+        <div class="value-cards">
+          <h1>01</h1>
+          <h3>Make more value, not money.</h3>
+          <p>We focus on creative and delivering value to people across the world</p>
+        </div>
+        <div class="value-cards">
+          <h1>02</h1>
+          <h3>Make it simple, not stressful.</h3>
+          <p>We make everything simple, clearly and accessible to everyone.</p>
+        </div>
+        <div class="value-cards">
+          <h1>03</h1>
+          <h3>Be human, not devil.</h3>
+          <p>We do the right things with love and sincerity to create sustainability.</p>
+        </div>
+      </div>
+    </div>
+    <div class="sectionE">
+      <div class="story">
+        <div class="title">
+          <h1>Our Story</h1>
+        </div>
+        <div class="story-container">
+          <div class="left">
+            <div class="body">
+              <p>
+                April 2016 when I was working part-time at a travel agency. At that time, there was an environmental
+                problem
+                in my country that made many people angry and they created a petition on Change dot org and shared it on
+                Facebook. I am very interested in the idea of this website, it is really helpful and it has a strong
+                life
+                impact. I wonder why there is not such a website in my country? I think every country should have such a
+                website and the world should have more than one in the community. So I decided to quit my part-time job
+                and
+                start developing a platform for social movements.
+              </p>
+              <p>
+                Although I have some experience developing websites on WordPress at my company, I still face many
+                challenges
+                to develop and design. I work almost 12 hours a day, after 10 months the first version is released. I
+                kept
+                improving it over the next 3 years with hundreds of changes and new features added.
+              </p>
+              <p>
+                Today, hundreds of websites powered by Campoal are running around the world, millions of people are
+                signing
+                to support for the problem they care about, starting social movements and making changes to make their
+                country a better place. People have used websites to change tax laws in France, raise funds to protect
+                animals in Germany, speak out about social problems in Turkey, Calls for an end to war in Middle Eastern
+                countries Fundraising to help children in Africa and more.
+              </p>
+              <p>
+                By empowering entrepreneurs and organizations to give people the opportunity to talk about their
+                problems,
+                I
+                believe that anyone can make the world a better place.
+              </p>
+              <p>Long Ha - Founder</p>
+            </div>
+          </div>
+          <div class="right">
+            <div class="image-grid">
+              <img
+                src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+              <img
+                src="https://images.pexels.com/photos/1181435/pexels-photo-1181435.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+              <img
+                src="https://images.pexels.com/photos/6803523/pexels-photo-6803523.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+              <img
+                src="https://images.pexels.com/photos/7652135/pexels-photo-7652135.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sectionF">
+      <div class="vision">
+        <div class="heading">
+          <h1>Our vision</h1>
+        </div>
+        <div class="vision-quote">
+          <h3>Our vision is to be the best petition platform in the world</h3>
+        </div>
+        <div class="image-container">
+          <img
+            src="https://previews.123rf.com/images/sabelskaya/sabelskaya2006/sabelskaya200600678/149989123-vector-illustration-of-planning-and-analysis-of-work-process-and-plans-with-people-marking-dates-and.jpg"
+            alt="">
+        </div>
+      </div>
+      <div class="data">
+        <div class="sec">
+          <h1>20,000</h1>
+          <h3>Campaigns</h3>
+        </div>
+        <div class="sec">
+          <h1>500,000</h1>
+          <h3>Signatures</h3>
+        </div>
+        <div class="sec">
+          <h1>10,000</h1>
+          <h3>Donations</h3>
+        </div>
+      </div>
+    </div>
+    <div class="sectionG">
+      <div class="team">
+        <div class="title">
+          <h1>Our Team</h1>
+          <h3>We need talented, passionate people to change the world</h3>
+          <button>See all members</button>
+        </div>
+        <div class="members">
+          <div class="person">
+            <img
+              src="https://images.pexels.com/photos/2955375/pexels-photo-2955375.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="">
+            <h3>Greg Rosenke</h3>
+            <p>Founder & CEO</p>
+          </div>
+          <div class="person">
+            <img
+              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3>Jenny Uebergerg</h3>
+            <p>Chief Marketing Officer</p>
+          </div>
+          <div class="person">
+            <img
+              src="https://images.pexels.com/photos/10041269/pexels-photo-10041269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+              alt="">
+            <h3>David Bole</h3>
+            <p>Chief Technology Officer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="sectionH">
+      <div class="contact">
+        <div class="title">
+          <h2>
+            Feel free to contact us.
+            We'll be glad to hear from you.
+          </h2>
+        </div>
+        <div class="contact-card">
+          <form action="{% url 'contact-us' %}" method="post">
+            {% csrf_token %}
+            <p>Your name</p>
+            <input type="text" name="name" class="inp">
+            <p>Company Name</p>
+            <input type="text" name="company_name" class="inp">
+            <p>Your email</p>
+            <input type="email" name="email" class="inp">
+            <p>Subject</p>
+            <input type="text" name="subject" class="inp">
+            <p>Message</p>
+            <textarea name="message" class="area"></textarea>
+            <div class="button-container">
+              <button type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- <center> -->
+  <!--   <h1 style="transform: translateY(45vh);">Mobile Version In Development</h1> -->
+  <!-- </center> -->
+
+
+  <!-- <script src="js/nav.js"></script> -->
+</body>
+
+</html>

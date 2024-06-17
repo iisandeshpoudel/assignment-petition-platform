@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Petition</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'delete-petition.css' %}" type="text/css">
+</head>
+
+<body>
+
+    <form method="POST" class="delete-form">
+        {% csrf_token %}
+        <div class="card">
+            <p>Are you sure you want to delete this petition?</p>
+            <button type="" submit>Yes, Delete</button>
+            <a href="{% url 'petition-list' %}" class="back-link">Back to Petition list</a>
+        </div>
+    </form>
+</body>
+
+</html>

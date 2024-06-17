@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+{% extends 'api/main.html' %}
+{% block content %}
+
+<head>
+  <title>Login</title>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'login.css' %}">
+</head>
+
+<body>
+  <h1>Sign In</h1>
+
+  <form method="post">
+    {% csrf_token %}
+    <div class="form">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password">
+    </div>
+    <div class="btn-container">
+      <button type="submit">Sign In</button>
+    </div>
+  </form>
+
+  <div class="register-link">
+    <p>Don't have account? </p><a href="{% url 'register' %}">Register here</a>
+  </div>
+</body>
+
+{% endblock %}
+
+</html>

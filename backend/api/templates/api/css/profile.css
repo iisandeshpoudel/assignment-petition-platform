@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+:root {
+  --primary-color: dimgrey;
+  --bg-col1: cornsilk;
+  --bg-col2: snow;
+  --secondary-color: Darkmagenta;
+  --accent-primary: darkorange;
+  --accent-secondary: darkviolet;
+  --accent-light-primary: khaki;
+  --accent-light-secondary: slateblue;
+  --h1: clamp(30px, 3.618vw, 68px);
+  --h2: clamp(26px, 2.618vw, 42px);
+  --h3: clamp(16px, 1.618vw, 26px);
+  --p1: clamp(14px, 1.3vw, 18px);
+  --p2: clamp(10px, 1vw, 14px);
+}
+
+html {
+  font-family: "Inter";
+}
+
+button {
+  margin: 10px 10px 10px 0px;
+  padding: 10px 40px;
+  font-size: var(--p2);
+  outline: 0;
+  color: snow;
+  font-weight: bold;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  border-radius: 10px;
+  border: 1px transparent solid;
+  background-color: var(--accent-light-secondary);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: indigo;
+}
+
+form button {
+  background-color: red;
+}
+
+form button:hover {
+  background-color: firebrick;
+}
+
+
+.intro {
+  margin-top: 5vh;
+  display: flex;
+}
+
+.login-out {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.actions {
+  display: flex;
+}
+
+h1 {
+  font-size: var(--h3);
+  color: var(--primary-color);
+  font-family: "Playfair Display";
+}
+
+input[type="text"] {
+  width: 10vw;
+  padding: 10px 10px 10px 5px;
+  margin: 10px 10px 10px 0px;
+  border-radius: 10px;
+  outline: none;
+  border: 1px var(--accent-light-secondary) solid;
+}
+
+th,
+td {
+  text-align: center;
+}
+
+td {
+  padding: 20px 10px 10px 10px;
+}
+
+.view-details button,
+.update-details button,
+.delete-petition button {
+  margin: 0px;
+  padding: 10px;
+}
+
+.view-details button:hover {
+  background-color: indigo;
+}
+
+.update-details button {
+  background-color: var(--accent-primary);
+}
+
+
+.update-details button:hover {
+  background-color: tomato;
+}
+
+.delete-petition button {
+  background-color: red;
+}
+
+.delete-petition button:hover {
+  background-color: crimson;
+}
