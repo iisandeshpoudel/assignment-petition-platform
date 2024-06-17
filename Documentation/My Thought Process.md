@@ -2,9 +2,21 @@ As I got interviewed as a Python Developer. I decided to do this assignment in a
 Hence, I used [venv](https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/#create-and-use-virtual-environments) package to manage the virtual environment and Django as the backend framework.
 And HTML, CSS and JS for the front end.
 
-### Here are the features this web application includes:
+### Features with their details
+Since this is a demo project, I decide to keep Sign up only with username and password intentionally for the sake of simplicity
+| Feature                         | Aspect/Trigger                                                 |
+|---------------------------------|----------------------------------------------------------------|
+| Contact Form in the Homepage    | User can send contact with message directly from the homepage, and the data gets stored in the datbase  |
+| Sign Up              | User can Sign Up and if they are already authenticate they will be redirected to petition list feed
+| Login              | User can login and if they are already logged in they will be redirected to petition list feed  
+| Petition Creation               | Form submission for creating a new petition
+| Petition Update| Form submission for updating a  petition
+| Petition Delete| Form submission for deleting a  petition
+| Search Function|User can search for petition and user name from petition list feed
+| Voting (Sign and Unsign)| User can vote/sign petition, and can undo their action
+| My Profile| User can view thier profile where they can update and delete thier petition, search their petition. And also change their password
 
-
+### Snippets
 
 
 # Code Structure
