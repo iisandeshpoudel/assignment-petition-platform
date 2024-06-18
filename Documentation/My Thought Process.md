@@ -141,10 +141,6 @@ Please note that while this deployment configuration allows for external access,
     
     -   SQLite is easy to set up and suitable for development and testing environments. It requires no additional configuration and is included with Python.
 
-3.  **Bootstrap for Frontend**:
-
-    -   Bootstrap was used to create a responsive and modern user interface quickly. It offers pre-designed components and is highly customizable.
-
 
 
 # Additional Steps or Configurations
