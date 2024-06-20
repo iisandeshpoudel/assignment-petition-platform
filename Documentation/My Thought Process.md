@@ -30,7 +30,7 @@ For the deployment of this project, a Virtual Machine (VM) running Ubuntu was pr
 
 1.  **Inbound Port Configuration**: The inbound port on the VM was configured to allow external access to the application. While this exposes the application to the internet, it serves the purpose of showcasing the demo project.
 2.  **Server Configuration**: The application server is running on port `0.0.0.0:5000`, which enables it to be accessible via the public IP address of the VM.
-3.  **External Access**: To access the demo site, users can visit the following URL: [http://52.140.0.202:8000/](http://52.140.0.202:8000/)
+3.  **External Access**: To access the demo site, users can visit the following URL: [http://20.244.93.35:8000/](http://20.244.93.35:8000/)
 Please note that while this deployment configuration allows for external access, it may introduce potential security risks. In an actual production environment, I will  implement additional security measures, such as firewalls, SSL/TLS encryption, and access control mechanisms, to ensure the protection of the application and its data.
 
 # Code Structure
