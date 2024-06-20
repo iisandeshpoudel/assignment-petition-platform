@@ -1,7 +1,7 @@
 # Assignment Submission by Sandesh Poudel
 For this demonstration, I have deployed my website on an Azure Virtual Machine. However, please note that this is a temporary setup solely for the purpose of this demo. 
 Please note that while this deployment configuration allows for external access, it may introduce potential security risks. In an actual production environment, I will always implement additional security measures, such as firewalls, SSL/TLS encryption, and access control mechanisms, to ensure the protection of the application and its data.
-### [Click Here To Vist The Site](http://52.140.0.202:8000/)
+### [Click Here To Vist The Site](http://20.244.93.35:8000/)
 
 # Documentation Info
 I decided to divide  the documentation of this assignment into two sections:
